@@ -17,8 +17,8 @@ You need the following python packages and tools:
 * SimpleITK
 * numpy
 * opencv-python
-* [nnU-Net][https://github.com/MIC-DKFZ/nnUNet]
-* [TotalSegmentator][https://github.com/wasserth/TotalSegmentator]
+* [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)
+* [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
 
 The first three can be installed via `pip`
 

@@ -10,7 +10,7 @@ https://doi.org/10.1117/1.JMI.12.4.046501
 If you use any of our code, model weights or data for your research, please cite our paper.
 
 # Models and Data
-Model weights and training data not currently publicly available. But you may reach out to the corresponding author Chen Zhao at chen.zhao@nih.gov to request model weights and training data.
+Model weights and training data are not currently publicly available. But you may reach out to the corresponding author Chen Zhao at chen.zhao@nih.gov to request model weights and training data.
 
 # Dependencies
 You need the following python packages and tools:
@@ -37,7 +37,7 @@ For the purpose of inference, most of these folders will be small with `nnUNet_r
 
 ## Cell Files
 To achieve non-interactive execution, a CSV cell file and/or patient lung regions must first be created/defined. This is done is done two steps:
-1) Run the TET segmenter with patient to produce a standalone cell grid.
+1) Run the TET segmenter with patient CT scan to produce a standalone cell grid.
    This can be done as follows:
 
    `python nnUNetCellInference.py --map-file '/path/to/cells.csv' --output-dir './Results' DICOMImageFolder`

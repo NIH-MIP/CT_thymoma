@@ -1,3 +1,5 @@
+<img src="examples/Rendered_volumetric_measurements.png" alt="Measurements rendered into DICOM slices or Nifti volumes" style="width:500px;"/>
+
 # Introduction
 This software segments thymic epithelial tumors (TETs) in targetted regions of lungs (described later) and produces image renderings of the lung cell grid (described later), volume and RECIST measurements of the segmented TETs, and a post-processed CT image for some kind of 3D surface rendering in some CareStream viewers.
 
@@ -55,6 +57,8 @@ MRN2,"A2Y,A2Z,A3Y,A3Z"
 Where, for example, `A2Y`, corresponds to a specific cuboid region in the cellular grid.
 
 Finally, re-running the same image will produce two more DICOM series "Rendered volumetric measurements" (series number 5002 by default) and "HU tumor rendering" (series number 5003 by default). The former will show overlaid colorized TET segmentations with volumetric measurements and automatically-computed major/minor RECIST axes.
+
+<img src="examples/Tumor_grid.png" alt="Tumor grid used for creating cell files" style="width:500px;"/>
 
 ## Nifti
 You can also run everything with Nifti files, but you must manually provide the patient ID to `nnUNetCellInference.py` with the `--patient-id` flag.

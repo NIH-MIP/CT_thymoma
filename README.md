@@ -1,5 +1,5 @@
 <img src="examples/Rendered_volumetric_measurements.png" alt="Measurements rendered into DICOM slices or Nifti volumes" style="width:500px;"/>
-
+ 
 # Introduction
 This software segments thymic epithelial tumors (TETs) in targetted regions of lungs (described later) and produces image renderings of the lung cell grid (described later), volume and RECIST measurements of the segmented TETs, and a post-processed CT image for some kind of 3D surface rendering in some CareStream viewers.
 
